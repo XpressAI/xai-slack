@@ -102,6 +102,7 @@ class SlackMessageListener(Component):
     ## Outputs
     - `on_event`: A branch to another component that gets executed when a message event is received.
     - `event`: The received message event data.
+    - `message`: The text content of the received message.
 
     ## Requirements
     - `slack_events_adapter` in the context (created by `SlackEventsAdaptor` component).
@@ -109,12 +110,14 @@ class SlackMessageListener(Component):
     """
     on_event: BaseComponent
     event: OutArg[dict]
-
+    message:OutArg[str]
     def execute(self, ctx) -> None:
         slack_events_adapter = ctx['slack_events_adapter']
 
         @slack_events_adapter.on("message")
         def handle_message(event_data):
+            message = event_data["event"].get('text')
+            self.message.value = message
             self.event.value = event_data
             self.on_event.do(ctx)
 
