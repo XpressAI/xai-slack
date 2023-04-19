@@ -1,5 +1,7 @@
 import os
+import json
 import ssl
+import requests
 import threading
 from slack_sdk.web import WebClient
 from slackeventsapi import SlackEventAdapter
@@ -124,6 +126,81 @@ class SlackMessageListener(Component):
 
 
 @xai_component
+class SlackBotMentionListener(Component):
+    """
+    A component that listens for incoming Slack app_mention events using the `slack_events_adapter` and triggers the `on_event` branch when an app_mention event occurs.
+
+    ## Outputs
+    - `on_event`: A branch to another component that gets executed when an app_mention event is received.
+    - `event`: The received app_mention event data.
+    - `message`: The text content of the received message.
+
+    ## Requirements
+    - `slack_events_adapter` in the context (created by `SlackEventsAdaptor` component).
+
+    """
+    on_event: BaseComponent
+    event: OutArg[dict]
+    message: OutArg[str]
+
+    def execute(self, ctx) -> None:
+        slack_events_adapter = ctx['slack_events_adapter']
+
+        @slack_events_adapter.on("app_mention")
+        def handle_app_mention(event_data):
+            message = event_data["event"].get('text')
+            self.message.value = message
+            self.event.value = event_data
+            self.on_event.do(ctx)
+
+
+@xai_component
+class SlackImageMessageListener(Component):
+    """
+    A component that listens for incoming Slack messages with image attachments using the `slack_events_adapter` and triggers the `on_event` branch when an image message event occurs.
+
+    ## Inputs
+    - `slack_bot_token`: The Slack bot token used for authenticating with the Slack API.
+
+    ## Outputs
+    - `on_event`: A branch to another component that gets executed when an image message event is received.
+    - `event`: The received image message event data.
+    - `message`: The text content of the received message.
+    - `image`: The image data in bytes.
+
+    ## Requirements
+    - `slack_events_adapter` in the context (created by `SlackEventsAdaptor` component).
+    - `requests` library installed in the Python environment.
+
+    """
+    slack_bot_token: InArg[str]
+    on_event: BaseComponent
+    event: OutArg[dict]
+    message: OutArg[str]
+    image: OutArg[bytes]
+
+    def execute(self, ctx) -> None:
+        slack_events_adapter = ctx['slack_events_adapter']
+        slack_bot_token = os.getenv("SLACK_BOT_TOKEN") if self.slack_bot_token.value is None else self.slack_bot_token.value
+
+        @slack_events_adapter.on("message")
+        def handle_message(event_data):
+            message = event_data["event"].get('text')
+            attachments = event_data["event"].get('files', [])
+            for attachment in attachments:
+                if attachment['mimetype'].startswith('image/'):
+                    if 'url_private_download' in attachment:
+                        image_url = attachment['url_private_download']
+                        headers = {'Authorization': f'Bearer {slack_bot_token}'}
+                        response = requests.get(image_url, headers=headers)
+                        self.message.value = message
+                        self.image.value = response.content
+                        self.event.value = event_data
+                        self.on_event.do(ctx)
+                        break
+
+
+@xai_component
 class RespondToMsgTrigger(Component):
     """
     A component that replies to a specific trigger message in a Slack conversation.
@@ -151,6 +228,40 @@ class RespondToMsgTrigger(Component):
         message = self.event.value["event"]
 
         if message.get("subtype") is None and self.msg_trigger.value in message.get('text'):
+            response = "<@{}> {}".format(message["user"],self.msg_response.value)
+            thread_ts = message.get('ts') if self.in_thread.value else None
+            slack_client.chat_postMessage(channel=message["channel"], text=response,thread_ts=thread_ts)
+
+
+
+@xai_component
+class RespondToImgTrigger(Component):
+    """
+    A component that replies to a specific trigger message in a Slack conversation.
+
+    ## Inputs
+    - `event`: The message event data.
+    - `msg_trigger`: The trigger message to watch for in the conversation.
+    - `msg_response`: The response message to send when the trigger message is detected.
+    - `in_thread`: (Optional) When set to `True`, the response will be a Slack reply to the message. Default value is `False`.
+
+    ## Requirements
+    - `slack_client` in the context (created by `SlackClient` component).
+    """
+    event:InArg[dict]
+    msg_trigger: InArg[str]
+    msg_response: InArg[str]
+    in_thread:InArg[bool]
+
+    def __init__(self):
+        super().__init__()
+        self.in_thread.value = False
+
+    def execute(self, ctx) -> None:   
+        slack_client = ctx['slack_client']      
+        message = self.event.value["event"]
+
+        if message.get("subtype") == 'file_share' and self.msg_trigger.value in message.get('text'):
             response = "<@{}> {}".format(message["user"],self.msg_response.value)
             thread_ts = message.get('ts') if self.in_thread.value else None
             slack_client.chat_postMessage(channel=message["channel"], text=response,thread_ts=thread_ts)
