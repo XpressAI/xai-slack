@@ -182,7 +182,7 @@ class SlackImageMessageListener(Component):
 
 
 @xai_component
-class RespondToMsgTrigger(Component):
+class RespondToTrigger(Component):
     """
     A component that replies to a specific trigger message in a Slack conversation.
 
@@ -208,41 +208,69 @@ class RespondToMsgTrigger(Component):
         slack_client = ctx['slack_client']      
         message = self.event.value["event"]
 
-        if message.get("subtype") is None and self.msg_trigger.value in message.get('text'):
+        if self.msg_trigger.value in message.get('text'):
             response = "<@{}> {}".format(message["user"],self.msg_response.value)
             thread_ts = message.get('ts') if self.in_thread.value else None
             slack_client.chat_postMessage(channel=message["channel"], text=response,thread_ts=thread_ts)
-
 
 
 @xai_component
-class RespondToImgTrigger(Component):
+class RespondtoTriggerWithImages(Component):
     """
-    A component that replies to a specific trigger message in a Slack conversation.
+    A component that replies with multiple images to a specific trigger message in a Slack conversation.
 
     ## Inputs
     - `event`: The message event data.
     - `msg_trigger`: The trigger message to watch for in the conversation.
-    - `msg_response`: The response message to send when the trigger message is detected.
-    - `in_thread`: (Optional) When set to `True`, the response will be a Slack reply to the message. Default value is `False`.
+    - `image_urls`: A list of URLs of the images to send as a response.
+    - `image_titles`: (Optional) A list of titles for the images. Default value is an empty list.
+    - `on_reply`: A branch to another component that gets executed when a reply is made to a message.
+    - `parent_thread_ts`: The timestamp of the parent message to which the reply was made.
+
+    ## Outputs
+    - `posting_blocks`: The list of posted message blocks containing images and their titles.
 
     ## Requirements
     - `slack_client` in the context (created by `SlackClient` component).
     """
-    event:InArg[dict]
+    event: InArg[dict]
     msg_trigger: InArg[str]
-    msg_response: InArg[str]
-    in_thread:InArg[bool]
+    image_urls: InArg[list]
+    image_titles: InArg[list]
+    on_reply: BaseComponent
+    parent_thread_ts:OutArg[str]
 
-    def __init__(self):
-        super().__init__()
-        self.in_thread.value = False
-
-    def execute(self, ctx) -> None:   
-        slack_client = ctx['slack_client']      
+    def execute(self, ctx) -> None:
+        slack_client = ctx['slack_client']
         message = self.event.value["event"]
+        
+        if 'thread_ts' in self.event.value["event"]: 
+            self.parent_thread_ts.value= self.event.value["event"]['thread_ts'] 
+            self.on_reply.do(ctx)
+        else:
+            thread_ts = message.get('ts')
 
-        if message.get("subtype") == 'file_share' and self.msg_trigger.value in message.get('text'):
-            response = "<@{}> {}".format(message["user"],self.msg_response.value)
-            thread_ts = message.get('ts') if self.in_thread.value else None
-            slack_client.chat_postMessage(channel=message["channel"], text=response,thread_ts=thread_ts)
+            if message.get("subtype") is None and self.msg_trigger.value in message.get('text'):
+                response_blocks = []
+
+                for i, image_url in enumerate(self.image_urls.value):
+                    image_title = self.image_titles.value[i] if i < len(self.image_titles.value) else ""
+                    response_blocks.append(
+                        {
+                            "type": "image",
+                            "title": {
+                                "type": "plain_text",
+                                "text": image_title
+                            },
+                            "block_id": f"image{i}",
+                            "image_url": image_url,
+                            "alt_text": f"image_{image_title}"
+                        }
+                    )
+
+                posting = slack_client.chat_postMessage(channel=message["channel"],text="Image(s) shared", blocks=response_blocks, thread_ts=thread_ts)
+                ctx.update({posting['message']['thread_ts']:posting.get('message')['blocks']})
+
+
+
+
