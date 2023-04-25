@@ -1,5 +1,4 @@
 import os
-import json
 import ssl
 import requests
 import threading
@@ -99,7 +98,12 @@ class SlackDeployBot(Component):
 @xai_component
 class SlackMessageListener(Component):
     """
+    # SlackMessageListener
+
     A component that listens for incoming Slack messages using the `slack_events_adapter` and triggers the `on_event` branch when a message event occurs.
+
+    ## Inputs
+    - `mention_only` (optional, default=False): A boolean indicating whether the listener should only trigger on mention events.
 
     ## Outputs
     - `on_event`: A branch to another component that gets executed when a message event is received.
@@ -108,48 +112,25 @@ class SlackMessageListener(Component):
 
     ## Requirements
     - `slack_events_adapter` in the context (created by `SlackEventsAdaptor` component).
-
     """
-    on_event: BaseComponent
-    event: OutArg[dict]
-    message:OutArg[str]
-    def execute(self, ctx) -> None:
-        slack_events_adapter = ctx['slack_events_adapter']
 
-        @slack_events_adapter.on("message")
-        def handle_message(event_data):
-            message = event_data["event"].get('text')
-            self.message.value = message
-            self.event.value = event_data
-            self.on_event.do(ctx)
-
-
-
-@xai_component
-class SlackBotMentionListener(Component):
-    """
-    A component that listens for incoming Slack app_mention events using the `slack_events_adapter` and triggers the `on_event` branch when an app_mention event occurs.
-
-    ## Outputs
-    - `on_event`: A branch to another component that gets executed when an app_mention event is received.
-    - `event`: The received app_mention event data.
-    - `message`: The text content of the received message.
-
-    ## Requirements
-    - `slack_events_adapter` in the context (created by `SlackEventsAdaptor` component).
-
-    """
+    mention_only: InArg[bool]
     on_event: BaseComponent
     event: OutArg[dict]
     message: OutArg[str]
 
+    def __init__(self):
+        super().__init__()
+        self.mention_only.value = False
+
     def execute(self, ctx) -> None:
         slack_events_adapter = ctx['slack_events_adapter']
 
-        @slack_events_adapter.on("app_mention")
-        def handle_app_mention(event_data):
-            message = event_data["event"].get('text')
-            self.message.value = message
+        event_type = 'app_mention' if self.mention_only.value else 'message'
+
+        @slack_events_adapter.on(event_type)
+        def handle_message(event_data):
+            self.message.value = event_data['event'].get('text')
             self.event.value = event_data
             self.on_event.do(ctx)
 
