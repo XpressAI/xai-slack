@@ -1,3 +1,3 @@
 slack_sdk
-slackeventsapi
+slack_bolt
 requests
