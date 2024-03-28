@@ -1,0 +1,14 @@
+[project]
+name = "xai-slack"
+version = "0.1.0"
+description = "Xircuits component library for Slack!"
+authors = [{ name = "XpressAI", email = "eduardo@xpress.ai" }]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_controlflow"
+keywords = ["xircuits", "slack"]
+
+# Xircuits-specific configurations
+[tool.xircuits]
+default_example_path = "examples/msg_trigger.xircuits"
+requirements_path = "requirements.txt"
