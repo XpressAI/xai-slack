@@ -78,7 +78,7 @@ Before you begin, you will need the following:
 8. subscribe your app to the following events:
    - `app_mention`
    - `file_shared`
-   - `message_channels`
+   - `message.channels`
    - `message.im`
    - *Note: this Subscriptions are to enable all the components. For selective components usage you can check the required scopes and events subscriptions stated each component documentation.*
 9. Create a `.env` file and add both `SLACK_APP_TOKEN` and `SLACK_BOT_TOKEN`, or you can provide these values directly to the components later on.
@@ -92,13 +92,13 @@ Before you begin, you will need the following:
 
 ## Installation
 
-To use this component library, ensure that you have an existing [Xircuits setup](https://xircuits.io/docs/main/Installation). You can then pull and install this library using:
+To use this component library, ensure that you have an existing [Xircuits setup](https://xircuits.io/docs/main/Installation). You can then install the Slack library using the [component library interface](https://xircuits.io/docs/component-library/installation#installation-using-the-xircuits-library-interface), or through the CLI using:
 
 ```
-xircuits-submodules xai_slack
+xircuits install slack
 ```
 
-Otherwise you can do it manually by cloning and installing it.
+You can also do it manually by cloning and installing it.
 
 ```
 # base Xircuits directory

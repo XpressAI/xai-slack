@@ -7,7 +7,7 @@ from slack_sdk import WebClient
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-from xai_components.base import InArg, OutArg, InCompArg, BaseComponent, Component, xai_component
+from xai_components.base import InArg, OutArg, InCompArg, BaseComponent, Component, xai_component, secret
 
 
 @xai_component
@@ -21,7 +21,7 @@ class SlackClient(Component):
     ## Outputs
     - Adds the `slack_client` object to the context for other components to use.
     """
-    slack_bot_token: InArg[str]
+    slack_bot_token: InArg[secret]
 
     def execute(self, ctx) -> None:
         slack_bot_token = os.getenv("SLACK_BOT_TOKEN") if self.slack_bot_token.value is None else self.slack_bot_token.value        
@@ -41,7 +41,7 @@ class SlackApp(Component):
     - Adds the `app` object to the context for other components to use.
 
     """
-    slack_bot_token:InArg[str]
+    slack_bot_token:InArg[secret]
 
     def execute(self, ctx) -> None:
         slack_bot_token = os.getenv("SLACK_BOT_TOKEN") if self.slack_bot_token.value is None else self.slack_bot_token.value
@@ -61,7 +61,7 @@ class SlackDeployBot(Component):
     ## Requirements
     - `app` instance in the context (created by `SlackApp` component).
     """
-    slack_app_token: InArg[str]
+    slack_app_token: InArg[secret]
     thread: InArg[bool]
 
     def __init__(self):
@@ -157,7 +157,7 @@ class SlackImageMessageListener(Component):
     - `message.channels` (If mention_only is set to False and the bot listens in public channels)
     - `message.groups` (If mention_only is set to False and the bot listens in private groups)
     """
-    slack_bot_token: InArg[str]
+    slack_bot_token: InArg[secret]
     on_event: BaseComponent
     event: OutArg[dict]
     message: OutArg[str]
