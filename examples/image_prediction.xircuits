@@ -1,12 +1,12 @@
 {
     "id": "e2585e68-19fc-407e-94ad-fce95267d45a",
-    "offsetX": -317.1913448870572,
-    "offsetY": 212.6781261111871,
-    "zoom": 59.02777620794338,
+    "offsetX": -375.1955994316105,
+    "offsetY": 203.71096124420802,
+    "zoom": 73.02777620794339,
     "gridSize": 0,
     "layers": [
         {
-            "id": "e112e953-59fe-42b3-b902-a94b873eca22",
+            "id": "775c65cd-2f64-4e3c-badf-1c9d559ac208",
             "type": "diagram-links",
             "isSvg": true,
             "transformed": true,
@@ -15,22 +15,22 @@
                     "id": "6bf087c0-065f-45a0-92e9-049ba9922ad1",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
-                    "sourcePort": "a694a0ed-62b2-4a39-92df-f84aadafcf5f",
-                    "target": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
-                    "targetPort": "262b10aa-57c8-4416-b72b-11698737957f",
+                    "source": "418c213e-8117-4063-a41c-b39694936faa",
+                    "sourcePort": "7191a8b1-9575-4146-bd53-8e092b12ecf4",
+                    "target": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
+                    "targetPort": "7d580ff3-a4f1-4ea9-80ba-e0d8676d22db",
                     "points": [
                         {
                             "id": "56e8900d-9d50-4793-9de4-e39cb892eed7",
                             "type": "point",
-                            "x": 1705.018,
-                            "y": 156.105
+                            "x": 1740.9750641682654,
+                            "y": 159.41250287621628
                         },
                         {
                             "id": "49d2231e-58af-473d-85a6-030c4f0ae865",
                             "type": "point",
-                            "x": 1852.842,
-                            "y": 298.304
+                            "x": 1852.9751029787258,
+                            "y": 301.6125333465892
                         }
                     ],
                     "labels": [],
@@ -45,20 +45,20 @@
                     "selected": false,
                     "source": "9e4889e4-8ffc-4036-bf89-d76c72cd10e6",
                     "sourcePort": "2f590c84-0720-4029-9565-584a341d3f03",
-                    "target": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
-                    "targetPort": "48dfeba3-7c67-4355-8f11-a89554698233",
+                    "target": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
+                    "targetPort": "fca35d45-f664-47a0-8c57-6117397a7824",
                     "points": [
                         {
                             "id": "5d1e5015-b2b5-405e-85ee-e1f93a3496cd",
                             "type": "point",
-                            "x": 1724.879,
-                            "y": 413.096
+                            "x": 1728.825062308655,
+                            "y": 413.4125366976847
                         },
                         {
                             "id": "1de9452c-44e1-4030-a22e-efcde48e9aee",
                             "type": "point",
-                            "x": 1852.842,
-                            "y": 341.198
+                            "x": 1852.9751029787258,
+                            "y": 344.8124648689267
                         }
                     ],
                     "labels": [],
@@ -71,22 +71,22 @@
                     "id": "b527c6d1-f2fc-4750-9d7a-94862d83b705",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
-                    "sourcePort": "c3ce349c-7065-42ed-96df-b55955cc1f38",
-                    "target": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
-                    "targetPort": "15bac4a9-cf5c-4dfc-b507-f9597f6aadbe",
+                    "source": "418c213e-8117-4063-a41c-b39694936faa",
+                    "sourcePort": "e5677640-d974-437a-8e79-e26e6b62c4bc",
+                    "target": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
+                    "targetPort": "3af42c28-7269-4ce7-93d9-62116069b0e8",
                     "points": [
                         {
                             "id": "7a438c54-449e-4951-a2da-fc43064cb1a0",
                             "type": "point",
-                            "x": 1705.018,
-                            "y": 177.552
+                            "x": 1740.9750641682654,
+                            "y": 181.012493776081
                         },
                         {
                             "id": "a3413b48-af85-4df3-bdda-e5b55b7ecdf2",
                             "type": "point",
-                            "x": 1852.842,
-                            "y": 362.645
+                            "x": 1852.9751029787258,
+                            "y": 366.41248058101075
                         }
                     ],
                     "labels": [],
@@ -101,20 +101,20 @@
                     "selected": false,
                     "source": "bb20e55c-88bb-4ea4-856a-b593efd631b6",
                     "sourcePort": "3e7863db-5e4e-4799-bb30-504890e0bdb4",
-                    "target": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
-                    "targetPort": "c39dec00-42bf-4a20-9f95-610972085023",
+                    "target": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
+                    "targetPort": "4ffac317-f951-43f3-a46d-52b3ac8449aa",
                     "points": [
                         {
                             "id": "48f73812-97aa-4ded-9d40-14068939a94a",
                             "type": "point",
-                            "x": 1729.034,
-                            "y": 475.573
+                            "x": 1733.887549045,
+                            "y": 475.8875443734472
                         },
                         {
                             "id": "59783be2-044a-47ee-8d07-86ec3570ed0a",
                             "type": "point",
-                            "x": 1852.842,
-                            "y": 384.091
+                            "x": 1852.9751029787258,
+                            "y": 388.0125465704866
                         }
                     ],
                     "labels": [],
@@ -127,22 +127,22 @@
                     "id": "b54ff8c1-bab0-4b54-be47-2095e15e804e",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5",
-                    "sourcePort": "b94303ae-ec67-4ea0-ab48-ee081acabcca",
-                    "target": "8acfd8e3-2d6b-4f93-9744-7473045e3be3",
-                    "targetPort": "998429d1-ee77-4fc0-99c4-e9bfb2f1226a",
+                    "source": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
+                    "sourcePort": "402155c1-def4-4b5d-92fa-2fe81f5d5d10",
+                    "target": "c4f23763-4ea2-44bd-b553-fec8a804848e",
+                    "targetPort": "d1e6c560-bc1d-4ba2-b107-802272034d5e",
                     "points": [
                         {
                             "id": "c9a05660-40d7-4f0a-81f5-f2c2d29e66e4",
                             "type": "point",
-                            "x": 1669.954,
-                            "y": -44.546
+                            "x": 1670.3375108302916,
+                            "y": -41.23750618995511
                         },
                         {
                             "id": "c82e4a9b-00e8-4647-89fa-ed4f29b2521b",
                             "type": "point",
-                            "x": 1889.705,
-                            "y": -41.314
+                            "x": 1889.8375816682378,
+                            "y": -37.999966021492455
                         }
                     ],
                     "labels": [],
@@ -157,20 +157,20 @@
                     "selected": false,
                     "source": "a82ba3ec-c7e4-43e9-a4ae-2e510eb1c8fe",
                     "sourcePort": "dd418314-772c-4570-af4e-6504e5ebf06e",
-                    "target": "581e4336-38c2-40c9-9519-1b3c6793960d",
-                    "targetPort": "758eeaf6-07e7-4550-9b48-6e0a99bd8946",
+                    "target": "69e61c6a-1e61-4824-8692-114515277e0b",
+                    "targetPort": "9bf941f0-bf62-458c-a2fa-557e2e59eb79",
                     "points": [
                         {
                             "id": "85048840-280d-4f54-91f7-5ca4d10030ad",
                             "type": "point",
-                            "x": 664.994,
-                            "y": -49.821
+                            "x": 696.3374952237963,
+                            "y": -71.14998952303335
                         },
                         {
                             "id": "52081708-c8ee-4b1e-9f0a-729f914ffa35",
                             "type": "point",
-                            "x": 737.39,
-                            "y": -47.668
+                            "x": 737.5124904256064,
+                            "y": -44.34999734361699
                         }
                     ],
                     "labels": [],
@@ -183,22 +183,22 @@
                     "id": "4ae9f4df-113e-4f91-a403-e7d1052e8eee",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "581e4336-38c2-40c9-9519-1b3c6793960d",
-                    "sourcePort": "ff0b6b29-443c-4248-a90a-9be0b5ebeede",
-                    "target": "77410e7a-e8fe-4872-b4a1-752b2fcc8089",
-                    "targetPort": "32d20a0e-fa75-49e8-915f-b10af41029b6",
+                    "source": "69e61c6a-1e61-4824-8692-114515277e0b",
+                    "sourcePort": "0b66aadc-4adf-4491-8d7b-96d2c99dc0c4",
+                    "target": "975fbb6d-5851-4e49-ae73-19717dc162a7",
+                    "targetPort": "9bf10439-121e-49da-98e0-17cc2fe5f4cc",
                     "points": [
                         {
                             "id": "fc643e47-c287-41ba-884b-c40e41b448dc",
                             "type": "point",
-                            "x": 867.228,
-                            "y": -47.668
+                            "x": 867.6124738693376,
+                            "y": -44.34999734361699
                         },
                         {
                             "id": "275237bf-b260-4ed4-badd-66e339fcedf2",
                             "type": "point",
-                            "x": 944.659,
-                            "y": -46.684
+                            "x": 944.8000182462365,
+                            "y": -43.374992696267356
                         }
                     ],
                     "labels": [],
@@ -211,22 +211,22 @@
                     "id": "aff9ec7c-55a9-485d-9227-d66c3525ea9f",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
-                    "sourcePort": "1c6b9ad2-6717-413e-8903-c92839149e1f",
-                    "target": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
-                    "targetPort": "0219286f-3d81-48f7-9587-4d45983b53c6",
+                    "source": "283a6723-de66-4389-bfab-ebeb74f93202",
+                    "sourcePort": "0e46e68d-48b0-4c46-8a49-8afc039dec18",
+                    "target": "418c213e-8117-4063-a41c-b39694936faa",
+                    "targetPort": "f2eb6c94-5a8e-4943-96a2-a18188c9244e",
                     "points": [
                         {
                             "id": "9360bdad-b81b-45fe-9269-defa323fabdd",
                             "type": "point",
-                            "x": 1335.18,
-                            "y": -25.399
+                            "x": 1359.887523918288,
+                            "y": -21.93748592065587
                         },
                         {
                             "id": "52ecedbd-92e2-4713-8b7e-f2332b5d592b",
                             "type": "point",
-                            "x": 1525.099,
-                            "y": 156.105
+                            "x": 1525.237574424982,
+                            "y": 159.41250287621628
                         }
                     ],
                     "labels": [],
@@ -239,22 +239,22 @@
                     "id": "fa60a4f7-050a-4822-b17f-98693d958dc0",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
-                    "sourcePort": "68276c51-35f5-47c3-8ab0-15bdaadd59a6",
-                    "target": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
-                    "targetPort": "5a42f129-627b-45f0-93d4-50fc7808c7e1",
+                    "source": "283a6723-de66-4389-bfab-ebeb74f93202",
+                    "sourcePort": "fa9050b9-2ea7-43d0-acbf-7602abb04d24",
+                    "target": "418c213e-8117-4063-a41c-b39694936faa",
+                    "targetPort": "a316bd62-8217-4c9b-8320-76304d494bff",
                     "points": [
                         {
                             "id": "5622ac80-90f0-4eca-85e6-52d71a096cc0",
                             "type": "point",
-                            "x": 1335.18,
-                            "y": 38.941
+                            "x": 1359.887523918288,
+                            "y": 42.86250310276665
                         },
                         {
                             "id": "e94efcfa-fde5-42c0-9cba-c9cf3ea05c60",
                             "type": "point",
-                            "x": 1525.099,
-                            "y": 177.552
+                            "x": 1525.237574424982,
+                            "y": 181.012493776081
                         }
                     ],
                     "labels": [],
@@ -267,16 +267,16 @@
                     "id": "b68555de-6a91-483d-827c-c4c93e88ddd4",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
-                    "sourcePort": "ed10efac-0052-4bec-8a6b-35b188eb9f67",
-                    "target": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
-                    "targetPort": "5d030880-440f-449e-a04e-6ce474813545",
+                    "source": "283a6723-de66-4389-bfab-ebeb74f93202",
+                    "sourcePort": "42fed502-8332-4135-8418-27b4e2f8709a",
+                    "target": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
+                    "targetPort": "27efc6a3-65dd-4025-9dfd-f55c43f1abb4",
                     "points": [
                         {
                             "id": "71088ac3-ce1f-46b6-8d70-98537dca3c58",
                             "type": "point",
-                            "x": 1335.18,
-                            "y": -3.953
+                            "x": 1359.887523918288,
+                            "y": -0.33750350918202976
                         },
                         {
                             "id": "c3c4ea76-83e3-4572-a525-97bcc3b17478",
@@ -293,8 +293,8 @@
                         {
                             "id": "e9b741b1-c5be-4a1d-89ba-da11cce5b014",
                             "type": "point",
-                            "x": 1852.842,
-                            "y": 319.751
+                            "x": 1852.9751029787258,
+                            "y": 323.21256603545487
                         }
                     ],
                     "labels": [],
@@ -307,22 +307,22 @@
                     "id": "6824eed2-1554-4de7-bc83-0d1b11b8c53e",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
-                    "sourcePort": "8811acfb-f450-4fe5-a1ee-cb1df4d09155",
-                    "target": "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5",
-                    "targetPort": "1662994b-5cc0-45c3-9bdc-9a1ad5fe1950",
+                    "source": "283a6723-de66-4389-bfab-ebeb74f93202",
+                    "sourcePort": "68dd3157-b1a5-4b7e-95c1-1fa27f804632",
+                    "target": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
+                    "targetPort": "177ca1e2-109e-4606-8cc3-f48f355f8c81",
                     "points": [
                         {
                             "id": "f0c39bdc-45fa-4f52-bb3f-ce23625bd593",
                             "type": "point",
-                            "x": 1335.18,
-                            "y": -46.846
+                            "x": 1359.887523918288,
+                            "y": -43.537489226630214
                         },
                         {
                             "id": "ea261686-16bf-4456-bae2-aed906afefb6",
                             "type": "point",
-                            "x": 1537.049,
-                            "y": -44.546
+                            "x": 1537.1750204487585,
+                            "y": -41.23750618995511
                         }
                     ],
                     "labels": [],
@@ -335,22 +335,134 @@
                     "id": "e14d6356-5dff-447d-8478-ac92b118fd39",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "77410e7a-e8fe-4872-b4a1-752b2fcc8089",
-                    "sourcePort": "f481b992-ec26-4b3d-9b2a-c8221ae37118",
-                    "target": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
-                    "targetPort": "4821402d-07c3-4a87-9940-81cf3894e68e",
+                    "source": "975fbb6d-5851-4e49-ae73-19717dc162a7",
+                    "sourcePort": "97cf176f-74fa-4f3b-ba8d-99fea2074dc9",
+                    "target": "283a6723-de66-4389-bfab-ebeb74f93202",
+                    "targetPort": "4fd4392d-8d11-427f-a0a9-5ef38751e4e4",
                     "points": [
                         {
                             "id": "3f61de10-4792-46ac-8343-512969d147d4",
                             "type": "point",
-                            "x": 1074.497,
-                            "y": -46.684
+                            "x": 1074.8999932015768,
+                            "y": -43.374992696267356
                         },
                         {
                             "id": "80630b32-1e8b-43f8-b04b-d05039d53f5b",
                             "type": "point",
-                            "x": 1160.098,
-                            "y": -46.846
+                            "x": 1160.2250261639197,
+                            "y": -43.537489226630214
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "77ad0200-fddb-42e2-92fe-1da3642623ae": {
+                    "id": "77ad0200-fddb-42e2-92fe-1da3642623ae",
+                    "type": "triangle-link",
+                    "selected": false,
+                    "source": "8aacc442-3621-4c39-a5d0-bb5804470044",
+                    "sourcePort": "9d28d6f6-62ee-48e1-b571-86975076d100",
+                    "target": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
+                    "targetPort": "aa2baec8-3472-4ea1-8b21-b13e6f067504",
+                    "points": [
+                        {
+                            "id": "44b0c573-523c-49c0-8668-836c8457920c",
+                            "type": "point",
+                            "x": 1470.2624720581161,
+                            "y": -170.90000058228628
+                        },
+                        {
+                            "id": "52d9212c-bdda-4ed5-9a12-6b82112d02a4",
+                            "type": "point",
+                            "x": 1537.1750204487585,
+                            "y": -19.637502883980776
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "50592fd4-cb0b-4444-ad2a-e688063bd949": {
+                    "id": "50592fd4-cb0b-4444-ad2a-e688063bd949",
+                    "type": "triangle-link",
+                    "selected": false,
+                    "source": "204d570a-0aa6-42f7-b0a5-2c1a47942253",
+                    "sourcePort": "c7bd2de2-5358-4888-8806-9d578f8f16e6",
+                    "target": "69e61c6a-1e61-4824-8692-114515277e0b",
+                    "targetPort": "f05acf74-83e5-45cb-a11e-67893feeccf8",
+                    "points": [
+                        {
+                            "id": "effa8c96-fc3b-4e8c-a1cc-ae0f83f2a532",
+                            "type": "point",
+                            "x": 738.7249982894301,
+                            "y": 107.06252743892682
+                        },
+                        {
+                            "id": "b342b8cb-1df3-4102-9acb-4bdaf749edf3",
+                            "type": "point",
+                            "x": 737.5124904256064,
+                            "y": -22.750006443752326
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "b1b47b32-a95b-415d-b672-13ade76630a8": {
+                    "id": "b1b47b32-a95b-415d-b672-13ade76630a8",
+                    "type": "triangle-link",
+                    "selected": false,
+                    "source": "204d570a-0aa6-42f7-b0a5-2c1a47942253",
+                    "sourcePort": "c7bd2de2-5358-4888-8806-9d578f8f16e6",
+                    "target": "975fbb6d-5851-4e49-ae73-19717dc162a7",
+                    "targetPort": "efc72351-947a-4e77-84ff-6a453f1ab681",
+                    "points": [
+                        {
+                            "id": "01b654d3-83ae-47d0-8aea-38b459df5c7e",
+                            "type": "point",
+                            "x": 738.7249982894301,
+                            "y": 107.06252743892682
+                        },
+                        {
+                            "id": "a32c0492-5c88-4e3a-83fb-80f991daaf57",
+                            "type": "point",
+                            "x": 944.8000182462365,
+                            "y": -21.774968495792518
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "9f95757f-bf21-4843-89c3-875ae8f70e56": {
+                    "id": "9f95757f-bf21-4843-89c3-875ae8f70e56",
+                    "type": "triangle-link",
+                    "selected": false,
+                    "source": "204d570a-0aa6-42f7-b0a5-2c1a47942253",
+                    "sourcePort": "c7bd2de2-5358-4888-8806-9d578f8f16e6",
+                    "target": "283a6723-de66-4389-bfab-ebeb74f93202",
+                    "targetPort": "373e91fa-0941-4588-8ddd-4fc51ac16d5f",
+                    "points": [
+                        {
+                            "id": "6f439632-1337-42f8-bfd2-8e26dac8d39e",
+                            "type": "point",
+                            "x": 738.7249982894301,
+                            "y": 107.06252743892682
+                        },
+                        {
+                            "id": "4ed35d2f-3a28-478a-922d-b34623994c80",
+                            "type": "point",
+                            "x": 1160.2250261639197,
+                            "y": -21.93748592065587
                         }
                     ],
                     "labels": [],
@@ -362,7 +474,7 @@
             }
         },
         {
-            "id": "b21a1906-f8e2-4ce8-ab31-917e597615e4",
+            "id": "5d2a089b-61ed-494f-a917-aab96933a71f",
             "type": "diagram-nodes",
             "isSvg": false,
             "transformed": true,
@@ -375,15 +487,15 @@
                         "type": "Start",
                         "borderColor": "rgb(0,192,255)"
                     },
-                    "x": 634.072,
-                    "y": -83.612,
+                    "x": 628.5946320617923,
+                    "y": -108.26015572193488,
                     "ports": [
                         {
                             "id": "dd418314-772c-4570-af4e-6504e5ebf06e",
                             "type": "default",
                             "extras": {},
-                            "x": 654.769,
-                            "y": -60.046,
+                            "x": 686.0375094149455,
+                            "y": -81.44999230866583,
                             "name": "out-0",
                             "alignment": "right",
                             "parentNode": "a82ba3ec-c7e4-43e9-a4ae-2e510eb1c8fe",
@@ -419,8 +531,8 @@
                             "id": "3e7863db-5e4e-4799-bb30-504890e0bdb4",
                             "type": "default",
                             "extras": {},
-                            "x": 1718.808,
-                            "y": 465.347,
+                            "x": 1723.5875299355391,
+                            "y": 465.5875252639862,
                             "name": "out-0",
                             "alignment": "right",
                             "parentNode": "bb20e55c-88bb-4ea4-856a-b593efd631b6",
@@ -456,8 +568,8 @@
                             "id": "2f590c84-0720-4029-9565-584a341d3f03",
                             "type": "default",
                             "extras": {},
-                            "x": 1714.653,
-                            "y": 402.87,
+                            "x": 1718.525043199194,
+                            "y": 403.1125508888339,
                             "name": "out-0",
                             "alignment": "right",
                             "parentNode": "9e4889e4-8ffc-4036-bf89-d76c72cd10e6",
@@ -481,7 +593,7 @@
                 "45270b19-f43f-440c-9139-61e53ca50851": {
                     "id": "45270b19-f43f-440c-9139-61e53ca50851",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
                         "type": "comment",
                         "commentInput": "Your Slack message should:\n 1 - Mention the bot in the message.\n 2 - Include an image.\n 3 - include msg_trigger \"predict\" in the message ",
@@ -496,10 +608,86 @@
                     "portsInOrder": [],
                     "portsOutOrder": []
                 },
-                "8acfd8e3-2d6b-4f93-9744-7473045e3be3": {
-                    "id": "8acfd8e3-2d6b-4f93-9744-7473045e3be3",
+                "8aacc442-3621-4c39-a5d0-bb5804470044": {
+                    "id": "8aacc442-3621-4c39-a5d0-bb5804470044",
                     "type": "custom-node",
                     "selected": false,
+                    "extras": {
+                        "type": "string",
+                        "borderColor": "rgb(0,192,255)"
+                    },
+                    "x": 1282.5196684904934,
+                    "y": -205.00550477932208,
+                    "ports": [
+                        {
+                            "id": "9d28d6f6-62ee-48e1-b571-86975076d100",
+                            "type": "default",
+                            "extras": {},
+                            "x": 1459.9624529486553,
+                            "y": -181.20000336791875,
+                            "name": "parameter-out-0",
+                            "alignment": "right",
+                            "parentNode": "8aacc442-3621-4c39-a5d0-bb5804470044",
+                            "links": [
+                                "77ad0200-fddb-42e2-92fe-1da3642623ae"
+                            ],
+                            "in": false,
+                            "label": "▶",
+                            "varName": "▶",
+                            "portType": "",
+                            "dataType": "string"
+                        }
+                    ],
+                    "name": "Argument (string): slack_app_token",
+                    "color": "lightpink",
+                    "portsInOrder": [],
+                    "portsOutOrder": [
+                        "9d28d6f6-62ee-48e1-b571-86975076d100"
+                    ]
+                },
+                "204d570a-0aa6-42f7-b0a5-2c1a47942253": {
+                    "id": "204d570a-0aa6-42f7-b0a5-2c1a47942253",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "string",
+                        "borderColor": "rgb(0,192,255)"
+                    },
+                    "x": 554.0297327088622,
+                    "y": 72.97091808472132,
+                    "ports": [
+                        {
+                            "id": "c7bd2de2-5358-4888-8806-9d578f8f16e6",
+                            "type": "default",
+                            "extras": {},
+                            "x": 728.4250124805793,
+                            "y": 96.76252465329436,
+                            "name": "parameter-out-0",
+                            "alignment": "right",
+                            "parentNode": "204d570a-0aa6-42f7-b0a5-2c1a47942253",
+                            "links": [
+                                "50592fd4-cb0b-4444-ad2a-e688063bd949",
+                                "b1b47b32-a95b-415d-b672-13ade76630a8",
+                                "9f95757f-bf21-4843-89c3-875ae8f70e56"
+                            ],
+                            "in": false,
+                            "label": "▶",
+                            "varName": "▶",
+                            "portType": "",
+                            "dataType": "string"
+                        }
+                    ],
+                    "name": "Argument (string): slack_bot_token",
+                    "color": "lightpink",
+                    "portsInOrder": [],
+                    "portsOutOrder": [
+                        "c7bd2de2-5358-4888-8806-9d578f8f16e6"
+                    ]
+                },
+                "c4f23763-4ea2-44bd-b553-fec8a804848e": {
+                    "id": "c4f23763-4ea2-44bd-b553-fec8a804848e",
+                    "type": "custom-node",
+                    "selected": true,
                     "extras": {
                         "type": "Finish"
                     },
@@ -507,14 +695,14 @@
                     "y": -75.11,
                     "ports": [
                         {
-                            "id": "998429d1-ee77-4fc0-99c4-e9bfb2f1226a",
+                            "id": "d1e6c560-bc1d-4ba2-b107-802272034d5e",
                             "type": "default",
                             "extras": {},
-                            "x": 1879.479,
-                            "y": -51.539,
+                            "x": 1879.5375625587767,
+                            "y": -48.29996880712492,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "8acfd8e3-2d6b-4f93-9744-7473045e3be3",
+                            "parentNode": "c4f23763-4ea2-44bd-b553-fec8a804848e",
                             "links": [
                                 "b54ff8c1-bab0-4b54-be47-2095e15e804e"
                             ],
@@ -525,14 +713,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "20ad5d31-8ec5-47a8-afb4-01bd27bad7fc",
+                            "id": "00ce21f2-1519-412e-91f2-f2e00331bf71",
                             "type": "default",
                             "extras": {},
-                            "x": 1879.479,
-                            "y": -30.093,
+                            "x": 1879.5375625587767,
+                            "y": -26.699986395651077,
                             "name": "parameter-dynalist-outputs",
                             "alignment": "left",
-                            "parentNode": "8acfd8e3-2d6b-4f93-9744-7473045e3be3",
+                            "parentNode": "c4f23763-4ea2-44bd-b553-fec8a804848e",
                             "links": [],
                             "in": true,
                             "label": "outputs",
@@ -549,17 +737,17 @@
                     "name": "Finish",
                     "color": "rgb(255,102,102)",
                     "portsInOrder": [
-                        "998429d1-ee77-4fc0-99c4-e9bfb2f1226a",
-                        "20ad5d31-8ec5-47a8-afb4-01bd27bad7fc"
+                        "d1e6c560-bc1d-4ba2-b107-802272034d5e",
+                        "00ce21f2-1519-412e-91f2-f2e00331bf71"
                     ],
                     "portsOutOrder": []
                 },
-                "54bbe388-ad9a-4207-97ec-8a64fa15a2eb": {
-                    "id": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
+                "418c213e-8117-4063-a41c-b39694936faa": {
+                    "id": "418c213e-8117-4063-a41c-b39694936faa",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_slack/mobile_net.py",
                         "description": "Processes image data using the MobileNetV2 model and returns the predicted class label.\n##### inPorts:\n- image_data: Input image data in bytes.\n##### outPorts:\n- prediction: Predicted class label for the input image.",
                         "lineNo": [
@@ -573,14 +761,14 @@
                     "y": 122.318,
                     "ports": [
                         {
-                            "id": "0219286f-3d81-48f7-9587-4d45983b53c6",
+                            "id": "f2eb6c94-5a8e-4943-96a2-a18188c9244e",
                             "type": "default",
                             "extras": {},
-                            "x": 1514.873,
-                            "y": 145.88,
+                            "x": 1514.9375553155212,
+                            "y": 149.1124837667553,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
+                            "parentNode": "418c213e-8117-4063-a41c-b39694936faa",
                             "links": [
                                 "aff9ec7c-55a9-485d-9227-d66c3525ea9f"
                             ],
@@ -591,14 +779,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "5a42f129-627b-45f0-93d4-50fc7808c7e1",
+                            "id": "a316bd62-8217-4c9b-8320-76304d494bff",
                             "type": "default",
                             "extras": {},
-                            "x": 1514.873,
-                            "y": 167.326,
+                            "x": 1514.9375553155212,
+                            "y": 170.71250796723015,
                             "name": "parameter-bytes-image_data",
                             "alignment": "left",
-                            "parentNode": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
+                            "parentNode": "418c213e-8117-4063-a41c-b39694936faa",
                             "links": [
                                 "fa60a4f7-050a-4822-b17f-98693d958dc0"
                             ],
@@ -609,14 +797,14 @@
                             "dataType": "bytes"
                         },
                         {
-                            "id": "a694a0ed-62b2-4a39-92df-f84aadafcf5f",
+                            "id": "7191a8b1-9575-4146-bd53-8e092b12ecf4",
                             "type": "default",
                             "extras": {},
-                            "x": 1694.792,
-                            "y": 145.88,
+                            "x": 1730.6751116600249,
+                            "y": 149.1124837667553,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
+                            "parentNode": "418c213e-8117-4063-a41c-b39694936faa",
                             "links": [
                                 "6bf087c0-065f-45a0-92e9-049ba9922ad1"
                             ],
@@ -627,14 +815,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "c3ce349c-7065-42ed-96df-b55955cc1f38",
+                            "id": "e5677640-d974-437a-8e79-e26e6b62c4bc",
                             "type": "default",
                             "extras": {},
-                            "x": 1694.792,
-                            "y": 167.326,
+                            "x": 1730.6751116600249,
+                            "y": 170.71250796723015,
                             "name": "parameter-out-string-prediction",
                             "alignment": "right",
-                            "parentNode": "54bbe388-ad9a-4207-97ec-8a64fa15a2eb",
+                            "parentNode": "418c213e-8117-4063-a41c-b39694936faa",
                             "links": [
                                 "b527c6d1-f2fc-4750-9d7a-94862d83b705"
                             ],
@@ -642,26 +830,26 @@
                             "label": "prediction",
                             "varName": "prediction",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "string"
                         }
                     ],
                     "name": "MobileNetV2ProcessImageData",
-                    "color": "rgb(153,51,204)",
+                    "color": "rgb(153,204,204)",
                     "portsInOrder": [
-                        "0219286f-3d81-48f7-9587-4d45983b53c6",
-                        "5a42f129-627b-45f0-93d4-50fc7808c7e1"
+                        "f2eb6c94-5a8e-4943-96a2-a18188c9244e",
+                        "a316bd62-8217-4c9b-8320-76304d494bff"
                     ],
                     "portsOutOrder": [
-                        "a694a0ed-62b2-4a39-92df-f84aadafcf5f",
-                        "c3ce349c-7065-42ed-96df-b55955cc1f38"
+                        "7191a8b1-9575-4146-bd53-8e092b12ecf4",
+                        "e5677640-d974-437a-8e79-e26e6b62c4bc"
                     ]
                 },
-                "e9476db9-5f19-4a6b-9a77-3709f4077c64": {
-                    "id": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
+                "b4b553eb-5034-4dc4-9cf9-4984dfb5316e": {
+                    "id": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_slack/slack_components.py",
                         "description": "A component that replies to a specific trigger message in a Slack conversation.\n\n## Inputs\n- `event`: The message event data.\n- `msg_trigger`: The trigger message to watch for in the conversation.\n- `msg_response`: The response message to send when the trigger message is detected.\n- `in_thread`: (Optional) When set to `True`, the response will be a Slack reply to the message. Default value is `False`.\n\n## Requirements\n- `slack_client` instance in the context (created by `SlackClient` component).\n\n### Required Slack permissions:\n- `chat:write` (To send messages in channels)",
                         "lineNo": [
@@ -675,14 +863,14 @@
                     "y": 264.516,
                     "ports": [
                         {
-                            "id": "262b10aa-57c8-4416-b72b-11698737957f",
+                            "id": "7d580ff3-a4f1-4ea9-80ba-e0d8676d22db",
                             "type": "default",
                             "extras": {},
-                            "x": 1842.616,
-                            "y": 288.079,
+                            "x": 1842.675150470485,
+                            "y": 291.31251423712825,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
+                            "parentNode": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
                             "links": [
                                 "6bf087c0-065f-45a0-92e9-049ba9922ad1"
                             ],
@@ -693,14 +881,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "5d030880-440f-449e-a04e-6ce474813545",
+                            "id": "27efc6a3-65dd-4025-9dfd-f55c43f1abb4",
                             "type": "default",
                             "extras": {},
-                            "x": 1842.616,
-                            "y": 309.525,
+                            "x": 1842.675150470485,
+                            "y": 312.91258022660406,
                             "name": "parameter-dict-event",
                             "alignment": "left",
-                            "parentNode": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
+                            "parentNode": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
                             "links": [
                                 "b68555de-6a91-483d-827c-c4c93e88ddd4"
                             ],
@@ -711,14 +899,14 @@
                             "dataType": "dict"
                         },
                         {
-                            "id": "48dfeba3-7c67-4355-8f11-a89554698233",
+                            "id": "fca35d45-f664-47a0-8c57-6117397a7824",
                             "type": "default",
                             "extras": {},
-                            "x": 1842.616,
-                            "y": 330.972,
+                            "x": 1842.675150470485,
+                            "y": 334.5124790600759,
                             "name": "parameter-string-msg_trigger",
                             "alignment": "left",
-                            "parentNode": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
+                            "parentNode": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
                             "links": [
                                 "f8bb816d-4579-4463-a60a-07eb2dd9085e"
                             ],
@@ -729,14 +917,14 @@
                             "dataType": "string"
                         },
                         {
-                            "id": "15bac4a9-cf5c-4dfc-b507-f9597f6aadbe",
+                            "id": "3af42c28-7269-4ce7-93d9-62116069b0e8",
                             "type": "default",
                             "extras": {},
-                            "x": 1842.616,
-                            "y": 352.419,
+                            "x": 1842.675150470485,
+                            "y": 356.11246147154975,
                             "name": "parameter-string-msg_response",
                             "alignment": "left",
-                            "parentNode": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
+                            "parentNode": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
                             "links": [
                                 "b527c6d1-f2fc-4750-9d7a-94862d83b705"
                             ],
@@ -747,14 +935,14 @@
                             "dataType": "string"
                         },
                         {
-                            "id": "c39dec00-42bf-4a20-9f95-610972085023",
+                            "id": "4ffac317-f951-43f3-a46d-52b3ac8449aa",
                             "type": "default",
                             "extras": {},
-                            "x": 1842.616,
-                            "y": 373.866,
+                            "x": 1842.675150470485,
+                            "y": 377.7125274610256,
                             "name": "parameter-boolean-in_thread",
                             "alignment": "left",
-                            "parentNode": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
+                            "parentNode": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
                             "links": [
                                 "aa0bc650-3165-419e-8eaf-df9113a9c824"
                             ],
@@ -765,14 +953,14 @@
                             "dataType": "boolean"
                         },
                         {
-                            "id": "b7b4cab6-e968-40ad-8c94-898b89975412",
+                            "id": "21ba6397-5220-4b65-90ec-84353e96d364",
                             "type": "default",
                             "extras": {},
-                            "x": 1965.116,
-                            "y": 288.079,
+                            "x": 1987.5750011390378,
+                            "y": 291.31251423712825,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "e9476db9-5f19-4a6b-9a77-3709f4077c64",
+                            "parentNode": "b4b553eb-5034-4dc4-9cf9-4984dfb5316e",
                             "links": [],
                             "in": false,
                             "label": "▶",
@@ -782,24 +970,24 @@
                         }
                     ],
                     "name": "RespondToTrigger",
-                    "color": "rgb(255,153,102)",
+                    "color": "rgb(153,204,51)",
                     "portsInOrder": [
-                        "262b10aa-57c8-4416-b72b-11698737957f",
-                        "5d030880-440f-449e-a04e-6ce474813545",
-                        "48dfeba3-7c67-4355-8f11-a89554698233",
-                        "15bac4a9-cf5c-4dfc-b507-f9597f6aadbe",
-                        "c39dec00-42bf-4a20-9f95-610972085023"
+                        "7d580ff3-a4f1-4ea9-80ba-e0d8676d22db",
+                        "27efc6a3-65dd-4025-9dfd-f55c43f1abb4",
+                        "fca35d45-f664-47a0-8c57-6117397a7824",
+                        "3af42c28-7269-4ce7-93d9-62116069b0e8",
+                        "4ffac317-f951-43f3-a46d-52b3ac8449aa"
                     ],
                     "portsOutOrder": [
-                        "b7b4cab6-e968-40ad-8c94-898b89975412"
+                        "21ba6397-5220-4b65-90ec-84353e96d364"
                     ]
                 },
-                "77410e7a-e8fe-4872-b4a1-752b2fcc8089": {
-                    "id": "77410e7a-e8fe-4872-b4a1-752b2fcc8089",
+                "975fbb6d-5851-4e49-ae73-19717dc162a7": {
+                    "id": "975fbb6d-5851-4e49-ae73-19717dc162a7",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_slack/slack_components.py",
                         "description": "A component that creates a `slack_bolt.App` instance and adds it to the context.\n\n## Inputs\n- `slack_bot_token`: The Slack bot token used to authenticate the app.\n\n## Outputs\n- Adds the `app` object to the context for other components to use.",
                         "lineNo": [
@@ -813,14 +1001,14 @@
                     "y": -80.476,
                     "ports": [
                         {
-                            "id": "32d20a0e-fa75-49e8-915f-b10af41029b6",
+                            "id": "9bf10439-121e-49da-98e0-17cc2fe5f4cc",
                             "type": "default",
                             "extras": {},
-                            "x": 934.433,
-                            "y": -56.91,
+                            "x": 934.5000324373857,
+                            "y": -53.67499548189982,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "77410e7a-e8fe-4872-b4a1-752b2fcc8089",
+                            "parentNode": "975fbb6d-5851-4e49-ae73-19717dc162a7",
                             "links": [
                                 "4ae9f4df-113e-4f91-a403-e7d1052e8eee"
                             ],
@@ -831,15 +1019,17 @@
                             "dataType": ""
                         },
                         {
-                            "id": "162df462-fa5f-4a42-86cc-c92a9c1b54f0",
+                            "id": "efc72351-947a-4e77-84ff-6a453f1ab681",
                             "type": "default",
                             "extras": {},
-                            "x": 934.433,
-                            "y": -35.463,
+                            "x": 934.5000324373857,
+                            "y": -32.074971281424986,
                             "name": "parameter-secret-slack_bot_token",
                             "alignment": "left",
-                            "parentNode": "77410e7a-e8fe-4872-b4a1-752b2fcc8089",
-                            "links": [],
+                            "parentNode": "975fbb6d-5851-4e49-ae73-19717dc162a7",
+                            "links": [
+                                "b1b47b32-a95b-415d-b672-13ade76630a8"
+                            ],
                             "in": true,
                             "label": "slack_bot_token",
                             "varName": "slack_bot_token",
@@ -847,14 +1037,14 @@
                             "dataType": "secret"
                         },
                         {
-                            "id": "f481b992-ec26-4b3d-9b2a-c8221ae37118",
+                            "id": "97cf176f-74fa-4f3b-ba8d-99fea2074dc9",
                             "type": "default",
                             "extras": {},
-                            "x": 1064.271,
-                            "y": -56.91,
+                            "x": 1064.5999740921159,
+                            "y": -53.67499548189982,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "77410e7a-e8fe-4872-b4a1-752b2fcc8089",
+                            "parentNode": "975fbb6d-5851-4e49-ae73-19717dc162a7",
                             "links": [
                                 "e14d6356-5dff-447d-8478-ac92b118fd39"
                             ],
@@ -866,21 +1056,21 @@
                         }
                     ],
                     "name": "SlackApp",
-                    "color": "rgb(255,102,0)",
+                    "color": "rgb(255,153,102)",
                     "portsInOrder": [
-                        "32d20a0e-fa75-49e8-915f-b10af41029b6",
-                        "162df462-fa5f-4a42-86cc-c92a9c1b54f0"
+                        "9bf10439-121e-49da-98e0-17cc2fe5f4cc",
+                        "efc72351-947a-4e77-84ff-6a453f1ab681"
                     ],
                     "portsOutOrder": [
-                        "f481b992-ec26-4b3d-9b2a-c8221ae37118"
+                        "97cf176f-74fa-4f3b-ba8d-99fea2074dc9"
                     ]
                 },
-                "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5": {
-                    "id": "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5",
+                "a6db3eb0-f0b4-49d4-8906-281652dc7382": {
+                    "id": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
                     "type": "custom-node",
                     "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_slack/slack_components.py",
                         "description": "A component that initiates a Slack Socket Mode connection using the `SocketModeHandler`.\n\n## Inputs\n- `slack_app_token`: The Slack app token used to authenticate the connection.\n- `thread` (optional, default=False): A boolean flag to determine if the connection should run on a separate thread.\n\n## Requirements\n- `app` instance in the context (created by `SlackApp` component).",
                         "lineNo": [
@@ -894,14 +1084,14 @@
                     "y": -78.345,
                     "ports": [
                         {
-                            "id": "1662994b-5cc0-45c3-9bdc-9a1ad5fe1950",
+                            "id": "177ca1e2-109e-4606-8cc3-f48f355f8c81",
                             "type": "default",
                             "extras": {},
-                            "x": 1526.823,
-                            "y": -54.772,
+                            "x": 1526.8750013392976,
+                            "y": -51.537508975587585,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5",
+                            "parentNode": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
                             "links": [
                                 "6824eed2-1554-4de7-bc83-0d1b11b8c53e"
                             ],
@@ -912,15 +1102,17 @@
                             "dataType": ""
                         },
                         {
-                            "id": "b9263fb2-d0b2-4c2c-8e46-8062fc9331f1",
+                            "id": "aa2baec8-3472-4ea1-8b21-b13e6f067504",
                             "type": "default",
                             "extras": {},
-                            "x": 1526.823,
-                            "y": -33.325,
+                            "x": 1526.8750013392976,
+                            "y": -29.937505669613245,
                             "name": "parameter-secret-slack_app_token",
                             "alignment": "left",
-                            "parentNode": "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5",
-                            "links": [],
+                            "parentNode": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
+                            "links": [
+                                "77ad0200-fddb-42e2-92fe-1da3642623ae"
+                            ],
                             "in": true,
                             "label": "slack_app_token",
                             "varName": "slack_app_token",
@@ -928,14 +1120,14 @@
                             "dataType": "secret"
                         },
                         {
-                            "id": "ec7cf281-d147-4dda-a6e9-555c8cc5a7b9",
+                            "id": "cca704e3-ba25-40fa-b90a-b1b375dd47c6",
                             "type": "default",
                             "extras": {},
-                            "x": 1526.823,
-                            "y": -11.878,
+                            "x": 1526.8750013392976,
+                            "y": -8.337481469138408,
                             "name": "parameter-boolean-thread",
                             "alignment": "left",
-                            "parentNode": "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5",
+                            "parentNode": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
                             "links": [],
                             "in": true,
                             "label": "thread",
@@ -944,14 +1136,14 @@
                             "dataType": "boolean"
                         },
                         {
-                            "id": "b94303ae-ec67-4ea0-ab48-ee081acabcca",
+                            "id": "402155c1-def4-4b5d-92fa-2fe81f5d5d10",
                             "type": "default",
                             "extras": {},
-                            "x": 1659.728,
-                            "y": -54.772,
+                            "x": 1660.0374917208305,
+                            "y": -51.537508975587585,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "5fcbbb6c-46f3-48ca-a426-c0b13ef13ef5",
+                            "parentNode": "a6db3eb0-f0b4-49d4-8906-281652dc7382",
                             "links": [
                                 "b54ff8c1-bab0-4b54-be47-2095e15e804e"
                             ],
@@ -963,22 +1155,22 @@
                         }
                     ],
                     "name": "SlackDeployBot",
-                    "color": "rgb(51,51,51)",
+                    "color": "rgb(255,102,102)",
                     "portsInOrder": [
-                        "1662994b-5cc0-45c3-9bdc-9a1ad5fe1950",
-                        "b9263fb2-d0b2-4c2c-8e46-8062fc9331f1",
-                        "ec7cf281-d147-4dda-a6e9-555c8cc5a7b9"
+                        "177ca1e2-109e-4606-8cc3-f48f355f8c81",
+                        "aa2baec8-3472-4ea1-8b21-b13e6f067504",
+                        "cca704e3-ba25-40fa-b90a-b1b375dd47c6"
                     ],
                     "portsOutOrder": [
-                        "b94303ae-ec67-4ea0-ab48-ee081acabcca"
+                        "402155c1-def4-4b5d-92fa-2fe81f5d5d10"
                     ]
                 },
-                "581e4336-38c2-40c9-9519-1b3c6793960d": {
-                    "id": "581e4336-38c2-40c9-9519-1b3c6793960d",
+                "69e61c6a-1e61-4824-8692-114515277e0b": {
+                    "id": "69e61c6a-1e61-4824-8692-114515277e0b",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_slack/slack_components.py",
                         "description": "A component that initializes a Slack WebClient with the provided `slack_bot_token`. The created client is then added to the context for further use by other components.\n\n## Inputs\n- `slack_bot_token` (optional): The Slack bot token used to authenticate the WebClient. If not provided, it will try to read the token from the environment variable `SLACK_BOT_TOKEN`.\n\n## Outputs\n- Adds the `slack_client` object to the context for other components to use.",
                         "lineNo": [
@@ -992,14 +1184,14 @@
                     "y": -81.459,
                     "ports": [
                         {
-                            "id": "758eeaf6-07e7-4550-9b48-6e0a99bd8946",
+                            "id": "9bf941f0-bf62-458c-a2fa-557e2e59eb79",
                             "type": "default",
                             "extras": {},
-                            "x": 727.164,
-                            "y": -57.893,
+                            "x": 727.2125046167556,
+                            "y": -54.650016453077974,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "581e4336-38c2-40c9-9519-1b3c6793960d",
+                            "parentNode": "69e61c6a-1e61-4824-8692-114515277e0b",
                             "links": [
                                 "08c385e0-4fde-4f94-891e-c8c8c5c70dac"
                             ],
@@ -1010,15 +1202,17 @@
                             "dataType": ""
                         },
                         {
-                            "id": "9a3819f9-7bbf-4e8f-8c67-89f8b2c3c9b1",
+                            "id": "f05acf74-83e5-45cb-a11e-67893feeccf8",
                             "type": "default",
                             "extras": {},
-                            "x": 727.164,
-                            "y": -36.447,
+                            "x": 727.2125046167556,
+                            "y": -33.04999225260314,
                             "name": "parameter-secret-slack_bot_token",
                             "alignment": "left",
-                            "parentNode": "581e4336-38c2-40c9-9519-1b3c6793960d",
-                            "links": [],
+                            "parentNode": "69e61c6a-1e61-4824-8692-114515277e0b",
+                            "links": [
+                                "50592fd4-cb0b-4444-ad2a-e688063bd949"
+                            ],
                             "in": true,
                             "label": "slack_bot_token",
                             "varName": "slack_bot_token",
@@ -1026,14 +1220,14 @@
                             "dataType": "secret"
                         },
                         {
-                            "id": "ff0b6b29-443c-4248-a90a-9be0b5ebeede",
+                            "id": "0b66aadc-4adf-4491-8d7b-96d2c99dc0c4",
                             "type": "default",
                             "extras": {},
-                            "x": 857.002,
-                            "y": -57.893,
+                            "x": 857.3124880604868,
+                            "y": -54.650016453077974,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "581e4336-38c2-40c9-9519-1b3c6793960d",
+                            "parentNode": "69e61c6a-1e61-4824-8692-114515277e0b",
                             "links": [
                                 "4ae9f4df-113e-4f91-a403-e7d1052e8eee"
                             ],
@@ -1045,21 +1239,21 @@
                         }
                     ],
                     "name": "SlackClient",
-                    "color": "rgb(102,102,102)",
+                    "color": "rgb(0,102,204)",
                     "portsInOrder": [
-                        "758eeaf6-07e7-4550-9b48-6e0a99bd8946",
-                        "9a3819f9-7bbf-4e8f-8c67-89f8b2c3c9b1"
+                        "9bf941f0-bf62-458c-a2fa-557e2e59eb79",
+                        "f05acf74-83e5-45cb-a11e-67893feeccf8"
                     ],
                     "portsOutOrder": [
-                        "ff0b6b29-443c-4248-a90a-9be0b5ebeede"
+                        "0b66aadc-4adf-4491-8d7b-96d2c99dc0c4"
                     ]
                 },
-                "b6b29745-66e0-444b-a2b3-1ffd868187b0": {
-                    "id": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
+                "283a6723-de66-4389-bfab-ebeb74f93202": {
+                    "id": "283a6723-de66-4389-bfab-ebeb74f93202",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_slack/slack_components.py",
                         "description": "A component that listens for incoming Slack messages with image attachments and triggers the specified `on_event` component when an image message event occurs.\n\n## Inputs\n- `slack_bot_token`: The Slack bot token used for authenticating with the Slack API.\n\n## Outputs\n- `event`: The received image message event data.\n- `message`: The text content of the received message.\n- `image`: The first image data in bytes.\n- `on_event`: A `BaseComponent` to be executed when an image message event is received.\n\n## Requirements\n- `app` instance in the context (created by `SlackApp` component).\n- `requests` library installed in the Python environment.\n\n### Required Slack permissions:\n- `app_mentions`:read (To read app mentions)\n- `channels:history` or `groups:history` (To read messages in public channels or private groups, respectively)\n- `files:read` (To read file information)\n\n### Required Slack Event Subscriptions:\n- `app_mention` (If mention_only is set to True)\n- `message.channels` (If mention_only is set to False and the bot listens in public channels)\n- `message.groups` (If mention_only is set to False and the bot listens in private groups)",
                         "lineNo": [
@@ -1073,14 +1267,14 @@
                     "y": -80.644,
                     "ports": [
                         {
-                            "id": "4821402d-07c3-4a87-9940-81cf3894e68e",
+                            "id": "4fd4392d-8d11-427f-a0a9-5ef38751e4e4",
                             "type": "default",
                             "extras": {},
-                            "x": 1149.873,
-                            "y": -57.072,
+                            "x": 1149.9250070544588,
+                            "y": -53.83749201226268,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
+                            "parentNode": "283a6723-de66-4389-bfab-ebeb74f93202",
                             "links": [
                                 "e14d6356-5dff-447d-8478-ac92b118fd39"
                             ],
@@ -1091,15 +1285,17 @@
                             "dataType": ""
                         },
                         {
-                            "id": "1745d08c-3220-4980-b453-d742c502a71e",
+                            "id": "373e91fa-0941-4588-8ddd-4fc51ac16d5f",
                             "type": "default",
                             "extras": {},
-                            "x": 1149.873,
-                            "y": -35.625,
+                            "x": 1149.9250070544588,
+                            "y": -32.23748870628834,
                             "name": "parameter-secret-slack_bot_token",
                             "alignment": "left",
-                            "parentNode": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
-                            "links": [],
+                            "parentNode": "283a6723-de66-4389-bfab-ebeb74f93202",
+                            "links": [
+                                "9f95757f-bf21-4843-89c3-875ae8f70e56"
+                            ],
                             "in": true,
                             "label": "slack_bot_token",
                             "varName": "slack_bot_token",
@@ -1107,14 +1303,14 @@
                             "dataType": "secret"
                         },
                         {
-                            "id": "8811acfb-f450-4fe5-a1ee-cb1df4d09155",
+                            "id": "68dd3157-b1a5-4b7e-95c1-1fa27f804632",
                             "type": "default",
                             "extras": {},
-                            "x": 1324.954,
-                            "y": -57.072,
+                            "x": 1349.5875048088271,
+                            "y": -53.83749201226268,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
+                            "parentNode": "283a6723-de66-4389-bfab-ebeb74f93202",
                             "links": [
                                 "6824eed2-1554-4de7-bc83-0d1b11b8c53e"
                             ],
@@ -1125,14 +1321,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "1c6b9ad2-6717-413e-8903-c92839149e1f",
+                            "id": "0e46e68d-48b0-4c46-8a49-8afc039dec18",
                             "type": "default",
                             "extras": {},
-                            "x": 1324.954,
-                            "y": -35.625,
+                            "x": 1349.5875048088271,
+                            "y": -32.23748870628834,
                             "name": "out-flow-on_event",
                             "alignment": "right",
-                            "parentNode": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
+                            "parentNode": "283a6723-de66-4389-bfab-ebeb74f93202",
                             "links": [
                                 "aff9ec7c-55a9-485d-9227-d66c3525ea9f"
                             ],
@@ -1143,14 +1339,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "ed10efac-0052-4bec-8a6b-35b188eb9f67",
+                            "id": "42fed502-8332-4135-8418-27b4e2f8709a",
                             "type": "default",
                             "extras": {},
-                            "x": 1324.954,
-                            "y": -14.178,
+                            "x": 1349.5875048088271,
+                            "y": -10.637506294814498,
                             "name": "parameter-out-dict-event",
                             "alignment": "right",
-                            "parentNode": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
+                            "parentNode": "283a6723-de66-4389-bfab-ebeb74f93202",
                             "links": [
                                 "b68555de-6a91-483d-827c-c4c93e88ddd4"
                             ],
@@ -1158,33 +1354,33 @@
                             "label": "event",
                             "varName": "event",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "dict"
                         },
                         {
-                            "id": "fa3793f2-497e-491c-adbe-e017010c8adb",
+                            "id": "0ebfcbb1-399f-465b-9f1e-55103c0ec27e",
                             "type": "default",
                             "extras": {},
-                            "x": 1324.954,
-                            "y": 7.269,
+                            "x": 1349.5875048088271,
+                            "y": 10.962517905660338,
                             "name": "parameter-out-string-message",
                             "alignment": "right",
-                            "parentNode": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
+                            "parentNode": "283a6723-de66-4389-bfab-ebeb74f93202",
                             "links": [],
                             "in": false,
                             "label": "message",
                             "varName": "message",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "string"
                         },
                         {
-                            "id": "68276c51-35f5-47c3-8ab0-15bdaadd59a6",
+                            "id": "fa9050b9-2ea7-43d0-acbf-7602abb04d24",
                             "type": "default",
                             "extras": {},
-                            "x": 1324.954,
-                            "y": 28.715,
+                            "x": 1349.5875048088271,
+                            "y": 32.56250031713418,
                             "name": "parameter-out-bytes-image",
                             "alignment": "right",
-                            "parentNode": "b6b29745-66e0-444b-a2b3-1ffd868187b0",
+                            "parentNode": "283a6723-de66-4389-bfab-ebeb74f93202",
                             "links": [
                                 "fa60a4f7-050a-4822-b17f-98693d958dc0"
                             ],
@@ -1192,21 +1388,21 @@
                             "label": "image",
                             "varName": "image",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "bytes"
                         }
                     ],
                     "name": "SlackImageMessageListener",
-                    "color": "rgb(0,102,204)",
+                    "color": "rgb(255,204,204)",
                     "portsInOrder": [
-                        "4821402d-07c3-4a87-9940-81cf3894e68e",
-                        "1745d08c-3220-4980-b453-d742c502a71e"
+                        "4fd4392d-8d11-427f-a0a9-5ef38751e4e4",
+                        "373e91fa-0941-4588-8ddd-4fc51ac16d5f"
                     ],
                     "portsOutOrder": [
-                        "8811acfb-f450-4fe5-a1ee-cb1df4d09155",
-                        "1c6b9ad2-6717-413e-8903-c92839149e1f",
-                        "ed10efac-0052-4bec-8a6b-35b188eb9f67",
-                        "fa3793f2-497e-491c-adbe-e017010c8adb",
-                        "68276c51-35f5-47c3-8ab0-15bdaadd59a6"
+                        "68dd3157-b1a5-4b7e-95c1-1fa27f804632",
+                        "0e46e68d-48b0-4c46-8a49-8afc039dec18",
+                        "42fed502-8332-4135-8418-27b4e2f8709a",
+                        "0ebfcbb1-399f-465b-9f1e-55103c0ec27e",
+                        "fa9050b9-2ea7-43d0-acbf-7602abb04d24"
                     ]
                 }
             }
