@@ -5,7 +5,7 @@ description = "Xircuits component library for Slack!"
 authors = [{ name = "XpressAI", email = "eduardo@xpress.ai" }]
 license = "Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_controlflow"
+repository = "https://github.com/XpressAI/xai-slack"
 keywords = ["xircuits", "slack"]
 
 # Xircuits-specific configurations

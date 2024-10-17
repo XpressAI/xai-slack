@@ -39,6 +39,9 @@ jobs:
     - name: Install xircuits in virtual environment
       run: pip install xircuits
 
+    - name: Install openai component library
+      run: xircuits install openai
+
     - name: Set Environment Variables
       run: |
         LIBRARY_NAME=$(echo "${GITHUB_REPOSITORY##*/}" | sed 's/-/_/g')
