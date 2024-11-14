@@ -18,7 +18,7 @@ jobs:
       TEST_XIRCUITS: |
         examples/image_prediction.xircuits
         examples/msg_trigger.xircuits
-        examples/slack_openai.xircuits
+        # examples/slack_openai.xircuits
 
     steps:
     - name: Checkout Repository

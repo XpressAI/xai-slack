@@ -8,6 +8,14 @@ readme = "README.md"
 repository = "https://github.com/XpressAI/xai-slack"
 keywords = ["xircuits", "slack"]
 
+dependencies = [
+    "slack_sdk==3.33.1",
+    "slack_bolt==1.20.1",
+    "torch==2.4.1",
+    "torchvision==0.19.1",
+    "requests"
+]
+
 # Xircuits-specific configurations
 [tool.xircuits]
 default_example_path = "examples/msg_trigger.xircuits"
