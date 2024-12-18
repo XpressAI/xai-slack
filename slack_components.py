@@ -419,3 +419,30 @@ class ThreadTriggers(Component):
             self.out_message.value =  filter_prompt(message,self.reply_trigger.value)
             if 'thread_ts' in self.event.value: 
                 self.on_reply.do(ctx)
+
+
+@xai_component
+class SlackSendMessageToServerAndChannel(Component):
+    """
+    A component that sends a message to a specific server and channel in Slack.
+
+    ## Inputs
+    - `server_url`: The URL of the server to send the message to.
+    - `channel_id`: The ID of the channel in the server to send the message to.
+    - `message`: The message content to be sent.
+
+    ## Requirements
+    - `slack_client` instance in the context (created by `SlackClient` component).
+    """
+    server_url: InArg[str]
+    channel_id: InArg[str]
+    message: InArg[str]
+
+    def execute(self, ctx) -> None:
+        slack_client = ctx['slack_client']
+        server_url = self.server_url.value
+        channel_id = self.channel_id.value
+        message = self.message.value
+
+        response = slack_client.chat_postMessage(channel=channel_id, text=message)
+        print(f"Message sent to server {server_url} and channel {channel_id}: {message}")
