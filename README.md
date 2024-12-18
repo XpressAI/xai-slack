@@ -24,31 +24,131 @@
 
 
 
+---
+## Xircuits Component Library for Slack
 
-Welcome to the xai-slack component library for building Slack bots! This library provides a simple way to create and manage custom Slack components bots in your workspace. In this README, you'll find the steps to set up a Slack application and start using the xai-slack library.
+This library provides a simple way to create and manage custom Slack components bots in your workspace. In this README, you'll find the steps to set up a Slack application and start using the xai-slack library.
+
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
+- [Preview](#preview)
 - [Prerequisites](#prerequisites)
-- [Setting Up a Slack Application](#setting-up-a-slack-application)
-  - [Create a Slack App](#create-a-slack-app)
-  - [Set up Your App](#set-up-your-app)
-  - [Invite the Bot to a Channel](#invite-the-bot-to-a-channel)
-- [Installation](#installation)
-- [Getting Started with Xai-Slack](#getting-started-with-xai-slack)
+- [Main Xircuits Components](#main-xircuits-components)
 - [Try the Examples](#try-the-examples)
-  - [Message Listener](#message-listener)
-  - [Image Classifier](#image-classifier)
-  - [OpenAI Image Generation](#openai-image-generation)
+- [Installation](#installation)
+
+## Preview
+
+### Image Prediction Example
+
+![image_prediction](https://github.com/user-attachments/assets/528d4197-e50a-4a54-b47b-ba4e74c2327f)
+
+### Image Prediction Result
+
+![image_prediction_result](https://github.com/user-attachments/assets/f218f435-48f3-4414-9065-9ec8bad9678c)
+
+### MSG Trigger Example 
+
+![msg_trigger](https://github.com/user-attachments/assets/d5053167-d07a-431e-a9db-d6f77d0de8b0)
+
+### MSG Trigger Result
+
+<img src="https://github.com/user-attachments/assets/2533c74c-b468-4e94-b693-0300d7d5acbe" alt="msg_trigger_result" width="500" height="300" />
+
+### Slack OpenAI Example
+
+![slack_openai](https://github.com/user-attachments/assets/e5791634-7c8e-4a8c-8a29-eb7d709a257d)
+
+### Slack OpenAI Result
+
+![slack_openai_result](https://github.com/user-attachments/assets/3d42ac46-9493-4e99-9d0a-ce57928c4271)
 
 ## Prerequisites
 
 Before you begin, you will need the following:
 
 1. A Slack workspace.
-2. Python3.8+.
+2. Python3.9+.
 3. Xircuits.
+
+## Main Xircuits Components
+
+### SlackClient Component:
+
+Initializes a Slack WebClient using a provided bot token or environment variable. The created client is added to the context for further use by other components.
+
+<img src="https://github.com/user-attachments/assets/fd80ef48-48f3-4a45-a029-b753e023c30b" alt="SlackClient" width="200" height="75" />
+
+### SlackImageMessageListener Component:
+
+Monitors Slack messages for image attachments and triggers a specified component when such a message is detected. Downloads and processes the attached image.
+
+<img src="https://github.com/user-attachments/assets/43282fe6-20f9-4792-9f53-99b670a5ebbb" alt="SlackImageMessageListener" width="200" height="150" />
+
+### SlackApp Component:
+
+Creates a Slack Bolt `App` instance for managing Slack events and interactions. The app is added to the context for other components to utilize.
+
+### SlackDeployBot Component:
+
+Starts a Socket Mode connection for the Slack app. Can run the connection on a separate thread if required.
+
+### SlackMessageListener Component:
+
+Listens for Slack messages or app mentions and triggers a specified event-handling component. Supports filtering based on app mentions.
+
+### RespondToTrigger Component:
+
+Sends a predefined response to messages containing a specified trigger text. Can reply in threads if enabled.
+
+### RespondToTriggerWithImages Component:
+
+Replies with multiple images to a message containing a specified trigger. Supports optional titles for the images.
+
+### RetrieveQueryImage Component:
+
+Extracts an image from a Slack thread based on a file name mentioned in curly braces and applies a mask (e.g., top, bottom, left, right) if specified.
+
+### ThreadTriggers Component:
+
+Detects specific triggers in Slack messages or replies and executes corresponding branches. Optionally filters mentions, tags, and triggers from the text.
+
+## Try the Examples
+
+We have provided several example workflows to help you get started with the xai-slack component library. Give them a try and see how you can create custom Slack components for your workspace.
+
+### Message Listener
+
+Check out the `msg_trigger.xircuits` workflow. This example listens for keywords in conversations and responds when a trigger message is detected.
+
+### Image Classifier
+
+Explore the `image_prediction.xircuits` workflow. In this example, the bot watches for attached images in conversations and responds with the predicted class when a trigger message is detected.
+
+### OpenAI Image Generation
+
+Take a look at the `slack_openai.xircuits` workflow. This example leverages components from the [OpenAI Component Library](https://github.com/XpressAI/xai-openai). The bot enables each Slack thread to have unique and contextual image creation and editing using the OpenAI models.
+
+These examples are designed to help you understand how to use the xai-slack component library effectively in your Slack workspace. Enjoy creating and customizing your components!
+
+
+
+## Installation
+
+To use this component library, ensure that you have an existing [Xircuits setup](https://xircuits.io/docs/main/Installation). You can then install the Slack library using the [component library interface](https://xircuits.io/docs/component-library/installation#installation-using-the-xircuits-library-interface), or through the CLI using:
+
+```
+xircuits install slack
+```
+
+You can also do it manually by cloning and installing it.
+
+```
+# base Xircuits directory
+git clone https://github.com/XpressAI/xai-slack xai_components/xai_slack
+pip install -r xai_components/xai_slack/requirements.txt
+```
 
 ## Setting Up a Slack Application
 
@@ -90,40 +190,7 @@ Before you begin, you will need the following:
 2. Invite the bot to a channel by sending /invite @YourBotName (replace "YourBotName" with the actual name of your bot) as a message in the channel.
 
 
-## Installation
 
-To use this component library, ensure that you have an existing [Xircuits setup](https://xircuits.io/docs/main/Installation). You can then install the Slack library using the [component library interface](https://xircuits.io/docs/component-library/installation#installation-using-the-xircuits-library-interface), or through the CLI using:
-
-```
-xircuits install slack
-```
-
-You can also do it manually by cloning and installing it.
-
-```
-# base Xircuits directory
-git clone https://github.com/XpressAI/xai-slack xai_components/xai_slack
-pip install -r xai_components/xai_slack/requirements.txt
-```
-## Getting Started with Xai-Slack
+---
 
 Now that your Slack app is set up and configured, you can begin using the xai-slack component library to build custom components for your workspace. Please follow the documentation and examples provided in the library to learn how to create, customize, and manage Slack components using xai-slack.
-
-## Try the Examples
-
-We have provided several example workflows to help you get started with the xai-slack component library. Give them a try and see how you can create custom Slack components for your workspace.
-
-### Message Listener
-
-Check out the `msg_trigger.xircuits` workflow. This example listens for keywords in conversations and responds when a trigger message is detected.
-
-### Image Classifier
-
-Explore the `image_prediction.xircuits` workflow. In this example, the bot watches for attached images in conversations and responds with the predicted class when a trigger message is detected.
-
-### OpenAI Image Generation
-
-Take a look at the `slack_openai.xircuits` workflow. This example leverages components from the [OpenAI Component Library](https://github.com/XpressAI/xai-openai). The bot enables each Slack thread to have unique and contextual image creation and editing using the OpenAI models.
-
-These examples are designed to help you understand how to use the xai-slack component library effectively in your Slack workspace. Enjoy creating and customizing your components!
-
