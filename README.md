@@ -114,6 +114,10 @@ Extracts an image from a Slack thread based on a file name mentioned in curly br
 
 Detects specific triggers in Slack messages or replies and executes corresponding branches. Optionally filters mentions, tags, and triggers from the text.
 
+### SlackSendMessageToServerAndChannel Component:
+
+Sends a message to a specific server and channel in Slack.
+
 ## Try the Examples
 
 We have provided several example workflows to help you get started with the xai-slack component library. Give them a try and see how you can create custom Slack components for your workspace.
