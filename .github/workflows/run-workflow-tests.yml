@@ -41,6 +41,9 @@ jobs:
     - name: Install openai component library
       run: xircuits install openai
 
+    - name: Additional Example Requirement
+      run: pip install  torch==2.4.1 torchvision==0.19.1
+
     - name: Set Environment Variables
       run: |
         LIBRARY_NAME=$(echo "${GITHUB_REPOSITORY##*/}" | sed 's/-/_/g')

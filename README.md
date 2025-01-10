@@ -130,6 +130,11 @@ Check out the `msg_trigger.xircuits` workflow. This example listens for keywords
 
 Explore the `image_prediction.xircuits` workflow. In this example, the bot watches for attached images in conversations and responds with the predicted class when a trigger message is detected.
 
+Additional Example Requirement: 
+```
+pip install  torch==2.4.1 torchvision==0.19.1
+```
+
 ### OpenAI Image Generation
 
 Take a look at the `slack_openai.xircuits` workflow. This example leverages components from the [OpenAI Component Library](https://github.com/XpressAI/xai-openai). The bot enables each Slack thread to have unique and contextual image creation and editing using the OpenAI models.
