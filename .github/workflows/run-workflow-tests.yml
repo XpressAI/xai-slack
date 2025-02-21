@@ -37,6 +37,9 @@ jobs:
 
     - name: Install xircuits in virtual environment
       run: pip install xircuits
+      
+    - name: Init Xircuits
+      run: xircuits init
 
     - name: Install openai component library
       run: xircuits install openai
@@ -55,9 +58,6 @@ jobs:
         else
           echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
         fi
-
-    - name: Init Xircuits
-      run: xircuits init
 
     - name: Clone Repository
       run: |
