@@ -389,7 +389,7 @@ class ThreadTriggers(Component):
     - `on_message`: A `BaseComponent` to be executed when a message with the `msg_trigger` is detected.
     - `on_reply`: A `BaseComponent` to be executed when a reply message with the `reply_trigger` is detected.
     """
-    event: InArg[str]
+    event: InArg[dict]
     msg_trigger:InArg[str]
     reply_trigger:InArg[str]
     filter_message:InArg[bool]
